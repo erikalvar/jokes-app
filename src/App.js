@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="App">
       <Joke 
+        punchline="Joke with no setup"
+      />
+      <Joke 
         setup="Why did the chicken cross the road?"
         punchline="To get to the other side."
       />
